@@ -4,8 +4,8 @@
   "newProjectRoot": "projects",
   "projects": {
     "myApp": {
-      "root": "",
-      "sourceRoot": "src",
+      "root": "src",
+      "sourceRoot": "MyApp",
       "projectType": "application",
       "prefix": "app",
       "schematics": {},
@@ -19,9 +19,9 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
-              "src/assets", 
-              "web.config"
+              "MyApp/src/favicon.ico",
+             "MyApp/src/assets",
+             "MyApp/web.config" 
             
             ],
             "styles": [
@@ -80,6 +80,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets"
+             
             ]
           }
         },
